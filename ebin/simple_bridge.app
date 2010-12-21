@@ -15,7 +15,10 @@
         simple_bridge_response,
         simple_bridge_response_wrapper,
         yaws_request_bridge,
-        yaws_response_bridge
+        yaws_response_bridge,
+	webmachine_request_bridge,
+	webmachine_response_bridge
+
     ]},
     {applications, [kernel, stdlib, sasl]},
     {registered, []}
